@@ -2,7 +2,8 @@ namespace FirstProjectASP.Models;
 
 public class RouteResponse
 {
-    public string? Controller { get; set; }
-    public string? Action { get; set; }
-    public static List<RouteResponse> Routes = [];
+    public string? ControllerName { get; set; }
+    public string? ActionName { get; set; }
+    public string? UserId { get; set; }
+    public DateTime Timestamp { get; set; }
 }

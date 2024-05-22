@@ -1,8 +1,15 @@
+using FirstProjectASP.Filters;
+using FirstProjectASP.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-builder.Services.AddControllersWithViews();
+builder.Services.AddSingleton<ActionHistoryService>();
+builder.Services.AddControllersWithViews(options =>
+{
+    options.Filters.Add<ActionLoggingFilter>();
+});
 
 var app = builder.Build();
 

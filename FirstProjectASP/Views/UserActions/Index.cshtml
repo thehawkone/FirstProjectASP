@@ -1,0 +1,25 @@
+@model IEnumerable<RouteResponse>
+
+<h2>User Action History</h2>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Timestamp</th>
+        <th>Controller</th>
+        <th>Action</th>
+        <th>User</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var action in Model)
+    {
+        <tr>
+            <td>@action.Timestamp</td>
+            <td>@action.ControllerName</td>
+            <td>@action.ActionName</td>
+            <td>@action.UserId</td>
+        </tr>
+    }
+    </tbody>
+</table>
