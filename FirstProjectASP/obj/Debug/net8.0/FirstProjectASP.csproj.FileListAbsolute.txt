@@ -29,3 +29,9 @@ C:\Users\Administrator\RiderProjects\FirstProjectASP\FirstProjectASP\obj\Debug\n
 C:\Users\Administrator\RiderProjects\FirstProjectASP\FirstProjectASP\obj\Debug\net8.0\FirstProjectASP.genruntimeconfig.cache
 C:\Users\Administrator\RiderProjects\FirstProjectASP\FirstProjectASP\obj\Debug\net8.0\ref\FirstProjectASP.dll
 C:\Users\Administrator\RiderProjects\FirstProjectASP\FirstProjectASP\obj\Debug\net8.0\FirstProjectASP.sourcelink.json
+C:\Users\Administrator\RiderProjects\FirstProjectASP\FirstProjectASP\bin\Debug\net8.0\NLog.dll
+C:\Users\Administrator\RiderProjects\FirstProjectASP\FirstProjectASP\bin\Debug\net8.0\NLog.Extensions.Logging.dll
+C:\Users\Administrator\RiderProjects\FirstProjectASP\FirstProjectASP\bin\Debug\net8.0\NLog.Web.AspNetCore.dll
+C:\Users\Administrator\RiderProjects\FirstProjectASP\FirstProjectASP\obj\Debug\net8.0\FirstProjectASP.csproj.AssemblyReference.cache
+C:\Users\Administrator\RiderProjects\FirstProjectASP\FirstProjectASP\obj\Debug\net8.0\FirstPro.9EFF16E9.Up2Date
+C:\Users\Administrator\RiderProjects\FirstProjectASP\FirstProjectASP\bin\Debug\net8.0\NLog.config

@@ -1,5 +1,6 @@
 using FirstProjectASP.Filters;
 using FirstProjectASP.Services;
+using NLog.Extensions.Logging;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,11 +14,12 @@ builder.Services.AddControllersWithViews(options =>
 
 var app = builder.Build();
 
+// Configure logging with NLog
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-   // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 

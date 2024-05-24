@@ -1,3 +1,13 @@
+body {
+  background-image: url('/images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-color: #ffffff;
+}
+
 html {
   font-size: 14px;
 }
@@ -17,12 +27,8 @@ html {
   min-height: 100%;
 }
 
-body {
-  background-image: url('/images/background.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-blend-mode: multiply;
-  background-color: #ffffff;
+.navbar .navbar-brand {
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
 }
