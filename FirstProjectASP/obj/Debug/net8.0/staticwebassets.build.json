@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wB6OczqTXG8FTcAjK5K/497UsZUr6Avce3nsKNwqcJE=",
+  "Hash": "6yn2qgGSP7fcbk1WSzaxiR6paVX/CJF0Cf+n6/TE3cA=",
   "Source": "FirstProjectASP",
   "BasePath": "_content/FirstProjectASP",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Administrator\\RiderProjects\\FirstProjectASP\\FirstProjectASP\\wwwroot\\images\\background.jpg",
+      "SourceId": "FirstProjectASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\RiderProjects\\FirstProjectASP\\FirstProjectASP\\wwwroot\\",
+      "BasePath": "_content/FirstProjectASP",
+      "RelativePath": "images/background.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\background.jpg"
     },
     {
       "Identity": "C:\\Users\\Administrator\\RiderProjects\\FirstProjectASP\\FirstProjectASP\\wwwroot\\js\\site.js",
