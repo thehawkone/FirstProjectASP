@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6yn2qgGSP7fcbk1WSzaxiR6paVX/CJF0Cf+n6/TE3cA=",
+  "Hash": "4O5tt0/rGTnpgQFKUJa7ROwplxmvrMVw/IsEB94bvJ8=",
   "Source": "FirstProjectASP",
   "BasePath": "_content/FirstProjectASP",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\background.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Administrator\\RiderProjects\\FirstProjectASP\\FirstProjectASP\\wwwroot\\images\\background1.jpg",
+      "SourceId": "FirstProjectASP",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\RiderProjects\\FirstProjectASP\\FirstProjectASP\\wwwroot\\",
+      "BasePath": "_content/FirstProjectASP",
+      "RelativePath": "images/background1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\background1.jpg"
     },
     {
       "Identity": "C:\\Users\\Administrator\\RiderProjects\\FirstProjectASP\\FirstProjectASP\\wwwroot\\js\\site.js",

@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\images\\background.jpg"
     },
     {
+      "Id": "C:\\Users\\Administrator\\RiderProjects\\FirstProjectASP\\FirstProjectASP\\wwwroot\\images\\background1.jpg",
+      "PackagePath": "staticwebassets\\images\\background1.jpg"
+    },
+    {
       "Id": "C:\\Users\\Administrator\\RiderProjects\\FirstProjectASP\\FirstProjectASP\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
