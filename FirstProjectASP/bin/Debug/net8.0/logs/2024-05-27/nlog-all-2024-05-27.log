@@ -1,0 +1,199 @@
+2024-05-27 22:23:26.9422|DEBUG|FirstProjectASP.Program|init main
+2024-05-27 22:23:27.1337|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2024-05-27 22:23:27.1337|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Home/PrintValue.cshtml'.
+2024-05-27 22:23:27.1337|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2024-05-27 22:23:27.1337|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Home/ShowDetails.cshtml'.
+2024-05-27 22:23:27.1337|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2024-05-27 22:23:27.1337|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2024-05-27 22:23:27.1337|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/UserActions/Index.cshtml'.
+2024-05-27 22:23:27.1337|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2024-05-27 22:23:27.1337|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2024-05-27 22:23:27.1337|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2024-05-27 22:23:27.1473|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-05-27 22:23:27.1473|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-27 22:23:27.1898|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2024-05-27 22:23:27.1954|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-7e7084b7-ac88-48b5-b3e6-549054bd5020.xml'.
+2024-05-27 22:23:27.1954|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {7e7084b7-ac88-48b5-b3e6-549054bd5020}.
+2024-05-27 22:23:27.2118|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {7e7084b7-ac88-48b5-b3e6-549054bd5020} with expiration date 2024-08-17 18:48:56Z as default key.
+2024-05-27 22:23:27.2118|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-27 22:23:27.2118|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2024-05-27 22:23:27.2118|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-27 22:23:27.2118|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-05-27 22:23:27.2118|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-05-27 22:23:27.2118|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {7e7084b7-ac88-48b5-b3e6-549054bd5020} as the default key.
+2024-05-27 22:23:27.2118|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {7e7084b7-ac88-48b5-b3e6-549054bd5020} was loaded during application startup.
+2024-05-27 22:23:27.2407|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5075
+2024-05-27 22:23:27.2407|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly FirstProjectASP
+2024-05-27 22:23:27.2407|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-27 22:23:27.2407|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-27 22:23:27.2407|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Administrator\RiderProjects\FirstProjectASP\FirstProjectASP
+2024-05-27 22:23:27.2407|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2024-05-27 22:23:27.5336|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3UE6SBITC3" received FIN.
+2024-05-27 22:23:27.5376|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3UE6SBITC3" accepted.
+2024-05-27 22:23:27.5376|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3UE6SBITC3" started.
+2024-05-27 22:23:27.5376|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3UE6SBITC3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-27 22:23:27.5376|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3UE6SBITC3" disconnecting.
+2024-05-27 22:23:27.5376|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3UE6SBITC3" stopped.
+2024-05-27 22:23:27.5913|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3UE6SBITC4" accepted.
+2024-05-27 22:23:27.5913|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3UE6SBITC5" accepted.
+2024-05-27 22:23:27.5913|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3UE6SBITC4" started.
+2024-05-27 22:23:27.5913|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3UE6SBITC5" started.
+2024-05-27 22:23:27.6218|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5075/ - - -
+2024-05-27 22:23:27.6218|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2024-05-27 22:23:27.6218|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-05-27 22:23:27.6218|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2024-05-27 22:23:27.6218|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path / does not match a supported file type
+2024-05-27 22:23:27.6492|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/'
+2024-05-27 22:23:27.6492|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'FirstProjectASP.Controllers.HomeController.Index (FirstProjectASP)' with route pattern '{controller=Home}/{action=Index}/{id:int?}' is valid for the request path '/'
+2024-05-27 22:23:27.6492|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'FirstProjectASP.Controllers.HomeController.Index (FirstProjectASP)'
+2024-05-27 22:23:27.6492|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata.
+2024-05-27 22:23:27.6492|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FirstProjectASP.Controllers.HomeController.Index (FirstProjectASP)'
+2024-05-27 22:23:27.6777|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstProjectASP.Controllers.HomeController (FirstProjectASP).
+2024-05-27 22:23:27.6777|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-05-27 22:23:27.6777|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2024-05-27 22:23:27.6777|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), FirstProjectASP.Filters.ActionLoggingFilter
+2024-05-27 22:23:27.6777|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-05-27 22:23:27.6777|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2024-05-27 22:23:27.6777|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-05-27 22:23:27.6777|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-05-27 22:23:27.6777|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller FirstProjectASP.Controllers.HomeController (FirstProjectASP)
+2024-05-27 22:23:27.6777|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller FirstProjectASP.Controllers.HomeController (FirstProjectASP)
+2024-05-27 22:23:27.6777|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2024-05-27 22:23:27.6777|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-05-27 22:23:27.6777|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-05-27 22:23:27.6777|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter FirstProjectASP.Filters.ActionLoggingFilter.
+2024-05-27 22:23:27.6931|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method FirstProjectASP.Controllers.HomeController.Index (FirstProjectASP) - Validation state: Valid
+2024-05-27 22:23:27.6931|INFO|FirstProjectASP.Controllers.HomeController|Controller: Home | View: Index
+2024-05-27 22:23:27.6931|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method FirstProjectASP.Controllers.HomeController.Index (FirstProjectASP), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6724ms.
+2024-05-27 22:23:27.6931|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter FirstProjectASP.Filters.ActionLoggingFilter.
+2024-05-27 22:23:27.6931|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-05-27 22:23:27.6931|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-05-27 22:23:27.6931|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2024-05-27 22:23:27.6931|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-05-27 22:23:27.6931|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-05-27 22:23:27.6931|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2024-05-27 22:23:27.7085|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache miss for view 'Index' in controller 'Home'.
+2024-05-27 22:23:27.7085|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Located compiled view for view at path '/Views/Home/Index.cshtml'.
+2024-05-27 22:23:27.7085|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/Views/Home/_ViewStart.cshtml'.
+2024-05-27 22:23:27.7085|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Located compiled view for view at path '/Views/_ViewStart.cshtml'.
+2024-05-27 22:23:27.7085|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/_ViewStart.cshtml'.
+2024-05-27 22:23:27.7085|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2024-05-27 22:23:27.7085|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Index.cshtml' was found in 7.6143ms.
+2024-05-27 22:23:27.7438|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id:int?} for address (action=[Index],controller=[UserActions])
+2024-05-27 22:23:27.7438|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id:int?} for Route: {controller=Home}/{action=Index}/{id:int?} resulting in /UserActions and 
+2024-05-27 22:23:27.7438|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id:int?} with result /UserActions
+2024-05-27 22:23:27.7438|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id:int?} for address (action=[PrintValue],controller=[Home])
+2024-05-27 22:23:27.7438|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id:int?} for Route: {controller=Home}/{action=Index}/{id:int?} resulting in /Home/PrintValue and 
+2024-05-27 22:23:27.7438|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id:int?} with result /Home/PrintValue
+2024-05-27 22:23:27.7438|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache miss for view '_Layout' in controller 'Home'.
+2024-05-27 22:23:27.7438|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/Views/Home/_Layout.cshtml'.
+2024-05-27 22:23:27.7438|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Located compiled view for view at path '/Views/Shared/_Layout.cshtml'.
+2024-05-27 22:23:27.7804|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id:int?} for address (area=[],action=[Index],controller=[Home])
+2024-05-27 22:23:27.7804|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id:int?} for Route: {controller=Home}/{action=Index}/{id:int?} resulting in  and 
+2024-05-27 22:23:27.7804|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id:int?} with result /
+2024-05-27 22:23:27.7804|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id:int?} for address (area=[],action=[Index],controller=[Home])
+2024-05-27 22:23:27.7804|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id:int?} for Route: {controller=Home}/{action=Index}/{id:int?} resulting in  and 
+2024-05-27 22:23:27.7804|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id:int?} with result /
+2024-05-27 22:23:27.7804|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id:int?} for address (area=[],action=[Privacy],controller=[Home])
+2024-05-27 22:23:27.7804|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id:int?} for Route: {controller=Home}/{action=Index}/{id:int?} resulting in /Home/Privacy and 
+2024-05-27 22:23:27.7804|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id:int?} with result /Home/Privacy
+2024-05-27 22:23:27.7854|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id:int?} for address (area=[],action=[Index],controller=[UserActions])
+2024-05-27 22:23:27.7854|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id:int?} for Route: {controller=Home}/{action=Index}/{id:int?} resulting in /UserActions and 
+2024-05-27 22:23:27.7854|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id:int?} with result /UserActions
+2024-05-27 22:23:27.7854|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Home}/{action=Index}/{id:int?} for address (area=[],action=[Privacy],controller=[Home])
+2024-05-27 22:23:27.7854|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Home}/{action=Index}/{id:int?} for Route: {controller=Home}/{action=Index}/{id:int?} resulting in /Home/Privacy and 
+2024-05-27 22:23:27.7854|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id:int?} with result /Home/Privacy
+2024-05-27 22:23:27.7854|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 87.539ms.
+2024-05-27 22:23:27.7854|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2024-05-27 22:23:27.7854|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-05-27 22:23:27.7854|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-05-27 22:23:27.7854|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-05-27 22:23:27.7854|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-05-27 22:23:27.8241|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FirstProjectASP.Controllers.HomeController.Index (FirstProjectASP) in 144.1435ms
+2024-05-27 22:23:27.8241|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FirstProjectASP.Controllers.HomeController.Index (FirstProjectASP)'
+2024-05-27 22:23:27.8241|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3UE6SBITC5" completed keep alive response.
+2024-05-27 22:23:27.8346|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5075/ - 200 - text/html;+charset=utf-8 213.3839ms
+2024-05-27 22:23:29.2196|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5075/Home/PrintValue - - -
+2024-05-27 22:23:29.2196|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-05-27 22:23:29.2196|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/PrintValue does not match a supported file type
+2024-05-27 22:23:29.2196|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Home/PrintValue'
+2024-05-27 22:23:29.2196|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'FirstProjectASP.Controllers.HomeController.PrintValue (FirstProjectASP)' with route pattern '{controller=Home}/{action=Index}/{id:int?}' is valid for the request path '/Home/PrintValue'
+2024-05-27 22:23:29.2196|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'FirstProjectASP.Controllers.HomeController.PrintValue (FirstProjectASP)'
+2024-05-27 22:23:29.2196|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata.
+2024-05-27 22:23:29.2196|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FirstProjectASP.Controllers.HomeController.PrintValue (FirstProjectASP)'
+2024-05-27 22:23:29.2235|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "PrintValue", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult PrintValue() on controller FirstProjectASP.Controllers.HomeController (FirstProjectASP).
+2024-05-27 22:23:29.2235|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-05-27 22:23:29.2235|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2024-05-27 22:23:29.2235|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), FirstProjectASP.Filters.ActionLoggingFilter
+2024-05-27 22:23:29.2235|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-05-27 22:23:29.2235|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2024-05-27 22:23:29.2235|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-05-27 22:23:29.2235|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-05-27 22:23:29.2235|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller FirstProjectASP.Controllers.HomeController (FirstProjectASP)
+2024-05-27 22:23:29.2235|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller FirstProjectASP.Controllers.HomeController (FirstProjectASP)
+2024-05-27 22:23:29.2235|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2024-05-27 22:23:29.2235|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-05-27 22:23:29.2235|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-05-27 22:23:29.2235|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter FirstProjectASP.Filters.ActionLoggingFilter.
+2024-05-27 22:23:29.2235|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method FirstProjectASP.Controllers.HomeController.PrintValue (FirstProjectASP) - Validation state: Valid
+2024-05-27 22:23:29.2235|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method FirstProjectASP.Controllers.HomeController.PrintValue (FirstProjectASP), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.7187ms.
+2024-05-27 22:23:29.2235|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter FirstProjectASP.Filters.ActionLoggingFilter.
+2024-05-27 22:23:29.2235|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-05-27 22:23:29.2235|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-05-27 22:23:29.2235|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2024-05-27 22:23:29.2235|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-05-27 22:23:29.2235|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-05-27 22:23:29.2235|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2024-05-27 22:23:29.2235|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache miss for view 'PrintValue' in controller 'Home'.
+2024-05-27 22:23:29.2235|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Located compiled view for view at path '/Views/Home/PrintValue.cshtml'.
+2024-05-27 22:23:29.2235|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/Views/Home/_ViewStart.cshtml'.
+2024-05-27 22:23:29.2235|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Located compiled view for view at path '/Views/_ViewStart.cshtml'.
+2024-05-27 22:23:29.2235|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/_ViewStart.cshtml'.
+2024-05-27 22:23:29.2235|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view PrintValue.
+2024-05-27 22:23:29.2235|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/PrintValue.cshtml' was found in 1.2005ms.
+2024-05-27 22:23:29.2235|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2024-05-27 22:23:29.2235|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-05-27 22:23:29.2235|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-05-27 22:23:29.2235|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-05-27 22:23:29.2235|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-05-27 22:23:29.2235|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FirstProjectASP.Controllers.HomeController.PrintValue (FirstProjectASP) in 10.0222ms
+2024-05-27 22:23:29.2235|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FirstProjectASP.Controllers.HomeController.PrintValue (FirstProjectASP)'
+2024-05-27 22:23:29.2235|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.|System.NotImplementedException: The method or operation is not implemented.
+   at FirstProjectASP.Models.User..ctor() in C:\Users\Administrator\RiderProjects\FirstProjectASP\FirstProjectASP\Models\CreateUser.cs:line 16
+   at AspNetCoreGeneratedDocument.Views_Home_PrintValue.ExecuteAsync() in C:\Users\Administrator\RiderProjects\FirstProjectASP\FirstProjectASP\Views\Home\PrintValue.cshtml:line 10
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-27 22:23:29.2700|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3UE6SBITC5" completed keep alive response.
+2024-05-27 22:23:29.2702|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5075/Home/PrintValue - 500 - text/html;+charset=utf-8 50.5871ms
+2024-05-27 22:23:34.4529|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2024-05-27 22:23:34.4529|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping
+2024-05-27 22:23:34.4613|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3UE6SBITC4" disconnecting.
+2024-05-27 22:23:34.4613|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3UE6SBITC5" disconnecting.
+2024-05-27 22:23:34.4613|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3UE6SBITC5" stopped.
+2024-05-27 22:23:34.4613|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3UE6SBITC4" stopped.
+2024-05-27 22:23:34.4613|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3UE6SBITC5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-27 22:23:34.4613|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3UE6SBITC4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-27 22:23:34.4613|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped

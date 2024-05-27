@@ -1,7 +1,8 @@
+@using FirstProjectASP.Helpers;
 @model User
 
 @{
     ViewData["Title"] = "PrintValue Method";
 }
-<h1>@ViewData["Title"]</h1>
+@Html.CreateParagraph("PrintValue Method")
 <p>@Model.Name - @Model.Age</p>

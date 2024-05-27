@@ -1,33 +1,46 @@
 using FirstProjectASP.Filters;
 using FirstProjectASP.Services;
-using NLog.Extensions.Logging;
+using NLog;
+using NLog.Web;
 
-var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
-builder.Services.AddRazorPages();
-builder.Services.AddSingleton<ActionHistoryService>();
-builder.Services.AddControllersWithViews(options =>
+var logger = NLog.LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
+try
 {
-    options.Filters.Add<ActionLoggingFilter>();
-});
+    logger.Debug("init main");
+    var builder = WebApplication.CreateBuilder(args);
 
-var app = builder.Build();
+    // Add services to the container + configure NLog
+    builder.Logging.ClearProviders();
+    builder.Logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
+    builder.Host.UseNLog();
+    builder.Services.AddRazorPages();
+    builder.Services.AddSingleton<ActionHistoryService>();
+    builder.Services.AddControllersWithViews(options => { options.Filters.Add<ActionLoggingFilter>(); });
 
-// Configure logging with NLog
+    var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
-{
-    app.UseExceptionHandler("/Home/Error");
-    app.UseHsts();
+    // Configure the HTTP request pipeline.
+    if (!app.Environment.IsDevelopment())
+    {
+        app.UseExceptionHandler("/Home/Error");
+        app.UseHsts();
+    }
+
+    app.UseHttpsRedirection();
+    app.UseStaticFiles();
+    app.UseRouting();
+    app.UseAuthorization();
+    app.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id:int?}");
+    app.Run();
 }
-
-app.UseHttpsRedirection();
-app.UseStaticFiles();
-app.UseRouting();
-app.UseAuthorization();
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id:int?}");
-app.Run();
+catch (Exception exception)
+{
+    logger.Error(exception, "Stopped program because of exception: ");
+    throw;
+}
+finally
+{
+    NLog.LogManager.Shutdown();
+}

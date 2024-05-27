@@ -10,5 +10,9 @@ public class User
         this.Name = name;
         this.Age = age;
     }
-    
+
+    public User()
+    {
+        throw new NotImplementedException();
+    }
 }

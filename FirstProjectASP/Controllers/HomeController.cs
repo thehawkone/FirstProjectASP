@@ -7,9 +7,6 @@ namespace FirstProjectASP.Controllers;
 public class HomeController(IConfiguration configuration, ILogger<HomeController> logger)
     : Controller
 {
-    private readonly ILogger<HomeController> _logger = logger;
-    private readonly IConfiguration _configuration = configuration;
-
     [HttpGet]
     public IActionResult PrintValue()
     {
@@ -21,23 +18,25 @@ public class HomeController(IConfiguration configuration, ILogger<HomeController
 
     public IActionResult ShowDetails()
     {
+        logger.LogInformation("Controller: Home | View: ShowDetails");
         ViewBag.Message = "Details button clicked!";
         return View();
     }
     public IActionResult Index()
     {
-        var adminName = _configuration.GetSection("Admin:name");
+        logger.LogInformation("Controller: Home | View: Index");
+        var adminName = configuration.GetSection("Admin:name");
         return View();
     }
 
     public IActionResult Privacy()
     {
+        logger.LogInformation("Controller: Home | View: Privacy");
         return View();
     }
-
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
+        logger.LogError("Controller: Home | View: Error");
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 }
